@@ -143,8 +143,9 @@
 }
 
 #historyImage {
-    width: 300px;
+    width: 500px;
     padding: 10px 0 0 130px;
+    box-sizing: border-box;
 }
 
 /* Contact Page */
