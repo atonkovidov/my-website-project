@@ -1,0 +1,335 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Background Images */
+
+#homePage {
+    background: url(Images/lakeFog.jpg) 0/cover no-repeat fixed;
+}
+
+#eventsPage {
+    background: url(Images/eventsPage.png) 0/cover no-repeat fixed;
+}
+
+#sightsPage {
+    background: url(Images/sightsPage.jpg) 0/cover no-repeat fixed;
+}
+
+#historyPage {
+    background: url(Images/historyPage.jpg) 0/cover no-repeat fixed;
+}
+
+#contactPage {
+    background: url(Images/contactPage.jpeg) 0/cover no-repeat fixed;
+}
+
+/* Home Page */
+
+#introImage {
+    width: 70%;
+    opacity: 0.7;
+    margin: 20px 190px 5px;
+    vertical-align: middle;
+}
+
+#introImage:hover {
+    opacity: 0.9;
+}
+
+#introContent {
+    background: #e1e8f4;
+    font: 1.75em Montserrat, cursive;
+    color: #3f4959;
+    width: 800px;
+    margin: 0 200px 10px;
+    padding: 0 25px;
+    border: 3px solid lightgray;
+    opacity: 0.8;
+}
+
+#introContent a {
+    text-decoration: none;
+    color: #728099;
+    font: 0.65em Montserrat;
+}
+
+#introContent a:hover {
+     color: black;
+}
+
+#introContent a:visited {
+    text-decoration: none;
+}
+
+/* Events Pages */
+
+.event {
+    width: auto;
+    padding: 15px;
+    margin: 15px 25px;
+    color:  #fff;
+    font: 1.2em Montserrat, sans-serif;
+    background: #0a3175;
+    opacity: 0.92;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.event a {
+    text-decoration: none;
+    color: #56beea;
+}
+
+.event a:hover {
+    color: #d2d6dd;
+}
+
+.event a:visited {
+    text-decoration: none;
+}
+
+.eventImage {
+    width: 40%;
+}
+
+/* Sights Pages */
+
+.sight {
+    background: #e1e8f4;
+    width: auto;
+    margin: 15px 25px;
+    padding: 10px;
+    color:  #000;
+    font: 1.2em Montserrat, sans-serif;
+    opacity: 0.72;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.sightImage {
+    width: 40%;
+}
+
+#fogImage {
+    width: 25%;
+}
+
+.sight a {
+    text-decoration: none;
+    color: #336bce;
+}
+
+.sight a:hover {
+    color: #fff;
+}
+
+.sight a:visited {
+    text-decoration: none;
+}
+
+/* History Pages */
+
+#historyContent {
+    margin: 50px 150px 5px;
+    width: 75%;
+    font: 1.2em Montserrat, sans-serif;
+    background: rgba(110,107,112, 0.7);
+    color: #f2eff4;
+    opacity: 0.9;
+    padding: 5px 10px;
+    text-indent: 7%;
+}
+
+#historyImage {
+    width: 500px;
+    padding: 10px 0 0 130px;
+}
+
+/* Contact Page */
+
+#contact {
+    width: 75%;
+    margin: 75px 175px 5px;
+    padding: 10px;
+    font: 1.2em Montserrat, sans-serif;
+    background: rgba(73, 84, 102, 0.5);
+    text-align: center;
+}
+
+#contact input {
+    width: 40%;
+    padding: 10px;
+}
+
+/* Top Bar */
+
+#logoImage {
+    position: absolute;
+    width: 100px;
+    border-radius: 25px;
+    opacity: 0.5;
+}
+
+#logoImage:hover {
+    opacity: 1;
+}
+
+/* Menu */
+
+.menu {
+    display: block;
+    margin: 0 0 45px 130px;
+    padding: 15px 20px;
+}
+
+.menu li {
+    display: inline-block;
+    color: rgba(10, 49, 117, 0.75);
+    font-size: 2.5em;
+    padding: 0 25px;
+    float: left;
+    display: inline-block;
+}
+
+.menu li .dropdown {
+    display: inline-block;
+    z-index: 1;
+}
+
+.button {
+    font-family: Merriweather, serif;
+    color: rgba(10, 49, 117, 0.5);
+    text-decoration: none;
+    display: block;
+}
+
+.current {
+    font-family: Merriweather, serif;
+    color: rgba(10, 49, 117, 1);
+    text-decoration: none;
+    display: block;
+}
+
+.button:hover {
+    color: rgba(10, 49, 117, 1)
+}
+
+.button li a:visited {
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content-link {
+    font-size: 0.5em;
+    color: rgba(10, 49, 117, 0.5);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content-current {
+    font-size: 0.5em;
+    color: rgba(10, 49, 117, 1);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: #f1f1f1;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: rgba(10, 49, 117, 1);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Footnote */
+
+.footnote::before {
+    font: 1em bold;
+    color: #a7abb2;
+    content: "\00a9  Copyright 2019 Toluca Lake Town Committee";
+    margin: 10px 450px 5px;
+    position:relative;
+}
+
+/* Responsive Design for Mobile */
+
+@media screen and (max-width: 600px) {
+    
+    #logoImage {
+        width: 75px;
+    }
+    
+    .menu {
+        margin: 0 0 30px 60px;
+        padding: 10px 15px 10px 25px;
+    }
+    
+    .menu li {
+        font-size: 1.35em;
+        padding: 7px 2px 0;
+    }
+    
+    .dropdown-content-link, .dropdown-content-current {
+        font-size: 0.75em;
+    }
+    
+    #introImage {
+        margin: 20px 0 5px 85px;
+    }
+    
+    #introContent {
+        width: 400px;
+        font-size: 1.2em;
+        margin: 0 50px 10px;
+        padding: 0 10px;
+    }
+    
+    .event {
+        font-size: 1.1em;
+        padding: 0 10px;
+    }
+    
+    .sight {
+        font-size: 1.1em;
+    }
+    
+    .sightImage {
+        width: 60%;
+    }
+    
+    #historyContent {
+        margin: 45px 60px 5px;
+        font-size: 1.1em;
+    }
+    
+    #historyImage {
+        width: 80%;
+        padding-left: 5px;
+    }
+    
+    #contact {
+        margin: 45px 70px 5px;
+        font-size: 1em;
+    }
+    
+    .footnote::before {
+        font-size: 0.8em;
+        margin: 10px 0 5px 135px;
+    }
+}
