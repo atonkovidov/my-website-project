@@ -269,6 +269,7 @@
     width: auto;
     position: absolute;
     text-align: center;
+    overflow: hidden;
 }
 
 /* Responsive Design for Mobile */
