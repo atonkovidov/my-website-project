@@ -5,22 +5,27 @@
 
 #homePage {
     background: url(Images/lakeFog.jpg) 0/cover no-repeat fixed;
+    overflow-x: hidden;
 }
 
 #eventsPage {
     background: url(Images/eventsPage.png) 0/cover no-repeat fixed;
+    overflow-x: hidden;
 }
 
 #sightsPage {
     background: url(Images/sightsPage.jpg) 0/cover no-repeat fixed;
+    overflow-x: hidden;
 }
 
 #historyPage {
     background: url(Images/historyPage.jpg) 0/cover no-repeat fixed;
+    overflow-x: hidden;
 }
 
 #contactPage {
     background: url(Images/contactPage.jpeg) 0/cover no-repeat fixed;
+    overflow-x: hidden;
 }
 
 /* Home Page */
@@ -266,7 +271,7 @@
     font: 1em bold;
     color: #a7abb2;
     content: "\00a9  Copyright 2019 Toluca Lake Town Committee";
-    width: 90%;
+    width: 100%;
     position: absolute;
     text-align: center;
 }
