@@ -31,9 +31,13 @@
 /* Home Page */
 
 #introImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 70%;
     opacity: 0.7;
-    margin: 20px 190px 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
     vertical-align: middle;
 }
 
@@ -45,7 +49,7 @@
     background: #e1e8f4;
     font: 1.75em Montserrat, cursive;
     color: #3f4959;
-    width: 800px;
+    width: auto;
     margin: 0 200px 10px;
     padding: 0 25px;
     border: 3px solid lightgray;
