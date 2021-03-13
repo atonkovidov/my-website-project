@@ -262,11 +262,11 @@
 
 /* Footnote */
 
-.footnote {
+.footnote::after {
     font: 1em bold;
     color: #a7abb2;
     content: "\00a9  Copyright 2019 Toluca Lake Town Committee";
-    width: 100%;
+    width: 99%;
     position: absolute;
     text-align: center;
 }
