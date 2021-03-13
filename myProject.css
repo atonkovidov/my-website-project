@@ -268,7 +268,7 @@
     content: "\00a9  Copyright 2019 Toluca Lake Town Committee";
     /* margin: 10px 450px 5px; */
     position: absolute;
-    width: 100%;
+    width: auto;
     text-align: center;
 }
 
