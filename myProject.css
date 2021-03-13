@@ -140,6 +140,7 @@
     opacity: 0.9;
     padding: 5px 10px;
     text-indent: 7%;
+    overflow: hidden;
 }
 
 #historyImage {
@@ -269,7 +270,6 @@
     width: 100%;
     position: absolute;
     text-align: center;
-    overflow: hidden;
 }
 
 /* Responsive Design for Mobile */
